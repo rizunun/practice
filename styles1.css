@@ -1,0 +1,102 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(ima/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+}
+
+.button-container button {
+    margin: 0 10px;
+}
+
+#title {
+    margin: 2vh;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+}
+
+#gatocarro {
+    width: 8vw;
+}
+
+.word img {
+    max-height: 5vh;
+}
+
+.cube {
+    position: absolute;
+    width: 10vw;
+    top: 40%;
+}
+
+#p1,
+#p2,
+#p3 {
+    margin-right: 5%;
+}
+
+@media (max-width: 992px) {
+    #title {
+        font-size: 1.5rem;
+    }
+
+    #p1,
+    #p2,
+    #p3 {
+        margin-right: 2vw;
+    }
+
+    .cube {
+        width: 15vw;
+        top: 45%;
+    }
+
+    .word img {
+        max-height: 6vh;
+    }
+}
+
+@media (max-width: 576px) {
+    #title {
+        font-size: 1.2rem;
+    }
+
+    .button-container {
+        bottom: 10px;
+    }
+
+    .cube {
+        width: 20vw;
+        top: 50%;
+    }
+
+    .word img {
+        max-height: 7vh;
+    }
+}

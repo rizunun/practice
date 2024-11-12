@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 1</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chewy&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid text-center">
+        <h1 id="title" class="display-6">Elephants are bigger than lions</h1>
+
+        <!-- Aligning animals and text -->
+        <div class="row justify-content-end">
+            <div id="p1" class="col-auto position-relative">
+                <h3 class="word d-flex align-items-center">
+                    <img id="animal1" src="ima/lion.png" alt="lion">
+                    <img id="animal2" src="ima/elephant.png" alt="elephant">
+                </h3>
+                <img class="letter" src="ima/letter.png" alt="letrero">
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div id="p2" class="col-auto position-relative">
+                <h3 class="word d-flex align-items-center">
+                    <img id="animal3" src="ima/lion.png" alt="lion">
+                    <img id="animal4" src="ima/elephant.png" alt="elephant">
+                </h3>
+                <img class="letter" src="ima/letter.png" alt="letrero">
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div id="p3" class="col-auto position-relative">
+                <h3 class="word d-flex align-items-center">
+                    <img id="animal5" src="ima/lion.png" alt="lion">
+                    <img id="animal6" src="ima/elephant.png" alt="elephant">
+                </h3>
+                <img class="letter" src="ima/letter.png" alt="letrero">
+            </div>
+        </div>
+
+        <!-- Cars and Modals -->
+        <div class="position-relative">
+            <div id="cube" class="cube">
+                <img id="gatocarro" src="ima/Designer-removebg-preview.png" alt="gatito sobre carro">
+            </div>
+            <div id="cube1" class="cube">
+                <img id="gatocarro" src="ima/Designer-removebg-preview.png" alt="carro">
+            </div>
+            <div id="cube2" class="cube">
+                <img id="gatocarro" src="ima/Designer-removebg-preview.png" alt="carro">
+            </div>
+        </div>
+
+        <!-- Button Container -->
+        <div class="button-container">
+            <button class="btn btn-warning btn-circle" data-bs-toggle="modal" data-bs-target="#questionModal">
+                <i class="bi bi-question-circle"></i>
+            </button>
+            <button onclick="window.location.href='index.html';" class="btn btn-warning btn-circle">
+                <i class="bi bi-house-door"></i>
+            </button>
+            <button class="btn btn-warning btn-circle" data-bs-toggle="modal" data-bs-target="#pauseModal">
+                <i class="bi bi-pause"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Modals Code (unchanged for brevity) -->
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script1.js"></script>
+</body>
+
+</html>
